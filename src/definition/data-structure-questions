@@ -1,0 +1,125 @@
+Please answer the below Data Structure Questions:
+
+why do we need data structure?
+To store and organize information
+
+What are the various operations that can be performed on different Data Structures?
+Traversing, Searching, Inserting, Deleting, Sorting, and Merging.
+
+List out the areas in which data structures are applied extensively?
+Compiler Design, Operating System, Database Management System, Statistical analysis package,
+Numerical Analysis, Graphics, Artificial Intelligence, and Simulation
+
+what is an Array?
+A container object that holds a fixed number of values of a single type.
+
+what is the difference between the Array and ArrayList?
+Array is static in size that is fixed length whereas ArrayList is dynamic in size .
+
+what is LinkedList?
+It's a linear data structure where each element is a separate object.
+
+How is an Array different from Linked List?
+In array, elements are stored in consecutive manner in memory whereas in linked list, elements can be stored at
+any available place.
+
+what is queue?
+It's a First-In-First-Out (FIFO) data structure in which the first element added to the queue will be the first one to be removed.
+
+what is stack?
+It's a Last-In-First-Out (LIFO) data structure. In a stack, we remove the item that was most recently added.
+
+what is FIFO and LIFO?
+FIFO is First-In-First-Out and LIFO is Last-In-First-Out
+
+what is the order of complexity?
+When you optimize your code for speed and an input requires size of N in the code, it will have O(N) complexity.
+
+what is the best case to search an element from an array?
+First element of the list.
+
+what is the worst case to search an element from an array?
+Last element of the list.
+
+what is tree in data structure?
+It simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node, represented as a set of linked nodes.
+
+what is graph in data structure?
+Consists of finite set of vertices or nodes together with a set of unordered pairs of these vertices
+for an undirected graph or a set of ordered pairs for a directed graph.
+
+what is the difference between the HashTable and HashMap?
+HashTable is synchronized whereas HashMap is not.
+
+What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+RDBMS - Array
+Network data model - Graph
+Hierarchical data model - Trees
+
+How HashMap works in java?
+HashMap provides put(key, value) for storing and get(key) method for retrieving values from HashMap.
+
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+It's an exception that is thrown when one to access an array item that doesn't exist.
+
+What are the different ways of copying an array into another array?
+Create the new array, copy the first array and store the values into the new array.
+
+What is difference between an array and a linked list?
+Array size is fixed in size but linked list is dynamic in size.
+
+What is DFS and BFS?
+Depth First Search and Breadth First Search
+
+What is Recursion?
+When a method calls itself to solve a problem.
+
+What are linear and non linear data Structures?
+Linear Data Structures - Arrays, and Linked Lists
+Non-linear Data Structures - Trees, and Graphs
+
+What is Big-(O)-notation?
+It's used to describe the performance or complexity of an algorithm.
+
+Outlined different kind of sorting algorithm with time complexity?
+Quicksort - ?(n log(n))
+Mergesort - ?(n log(n))
+Heapsort - ?(n log(n))
+Bubble Sort - ?(n^2)
+Insertion Sort - ?(n^2)
+Selection Sort - ?(n^2)
+Shell Sort - ?(n(log(n))^2)
+Bucket Sort - ?(n+k)
+
+Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
+  a)In terms of Accessing element.
+  ADVANTAGES:         DISADVANTAGES:
+  Array - ?(1)        Array - O(1)
+  Stack - ?(n)        Stack - O(n)
+  Queue - ?(n)        Queue - O(n)
+  LinkedList - ?(n)   LinkedList - O(n)
+  HashTable - N/A     HashTable - N/A
+
+  b)In terms of Inserting element.
+  ADVANTAGES:         DISADVANTAGES
+  Array - ?(n)        Array - O(n)
+  Stack - ?(1)        Stack - O(1)
+  Queue - ?(1)        Queue - O(1)
+  LinkedList - ?(1)   LinkedList - O(1)
+  HashTable - ?(1)    HashTable - O(n)
+
+  c)In terms of Searching element.
+  ADVANTAGES:         DISADVANTAGES:
+  Array - ?(n)        Array - O(n)
+  Stack - ?(n)        Stack - O(n)
+  Queue - ?(n)        Queue - O(n)
+  LinkedList - ?(n)   LinkedList - O(n)
+  HashTable - ?(1)    HashTable - O(n)
+
+  d)In terms of Removing element.
+  ADVANTAGES:         DISADVANTAGES:
+  Array - ?(n)        Array - O(n)
+  Stack - ?(1)        Stack - O(1)
+  Queue - ?(1)        Queue - O(1)
+  LinkedList - ?(1)   LinkedList - O(1)
+  HashTable - ?(1)    HashTable - O(n)

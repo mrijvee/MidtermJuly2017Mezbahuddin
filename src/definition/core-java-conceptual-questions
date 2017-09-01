@@ -1,0 +1,150 @@
+Please answer the below core-java Questions:
+
+What jdk contains or composed of and define each components?
+Interpreter - used for interpreting the java files that are compiled by the Java Compiler. This is retrieved by using the "java" command.
+Compiler - used for compiling the java files. This is retrieved by using the "javac" command.
+Debugger - used for debugging the java files. This is retrieved by using the "jdb" command.
+Disassembler - used for disassembling the Java class file. This is retrieved by using the "javap" command.
+Documentation - used for code maintainability. This is retrieved by using the "javadoc" command.
+
+What is IDE?
+IDE stands for Integrated Development Environment, and it's a software application that allows one to write and debug Java programs.
+
+What are the IDEs available in the market to support java?
+Eclipse, IntelliJ IDEA, and NetBeans.
+
+Explain the entire java life cycle.
+A java program will be written and them compiled by a Java Compiler. From there, it will turn it into a .class, which then goes through an interpreter.
+This translates the java code into binary machine code. This is then outputted to the computer.
+
+what is class?
+A blueprint for creating objects.
+
+What is object?
+An entity that has state and behavior.
+
+What is the entry point of an application?
+It's the main method.
+
+Why main is static?
+Because it's called by the JVM(Java Virtual Machine) before any objects are made.
+
+What is the difference between an Interface and Abstract class?
+You can only declare methods in an interface whereas for an abstract class, you can implement both non-abstract, and abstract methods.
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+No, you can't make an object from an interface and abstract class. To use it, you would have to instantiate one of their subclasses/implementers.
+
+what is Access Specifier?
+Public, private, and protected.
+
+What is OOP ? Define each feature of java OOP.
+OOP stands for Object Oriented Programming. The features are Abstraction, Encapsulation, Inheritance, and Polymorphism.
+Abstraction - used for implementation hiding
+Encapsulation - used for data hiding
+Inheritance - used for code reusability.
+Polymorphism - used for compile time (method overloading) and runtime (method overriding)
+
+What is API? Name list of API that you have used so far.
+It stands for Application Program Interface, and it's a list of all classes that are part of the Java development kit (JDK).
+I used Scanner, ArrayList, Array, LinkedList, Queue, HashMap, BufferedReader, FileReader, String.
+
+Does java support multiple inheritance?
+No
+
+What is method overloading and when it happens?
+Method overloading enables a class to have two or more methods with the same name as long as their arguments are different,
+and it happens at compile time.
+
+Explain exceptions in java and how to handle it.
+It's a problem that takes place during the execution of a program that interrupts the normal flow of a program like when a number is divided by 0.
+We handle it by using the try and catch keywords.
+
+What is static keyword in java? How it has been used in variables and methods ?
+It's used for memory management and it's used for variables, methods, nested classes, and blocks.
+
+What is final and how it has been used variables and methods?
+It's used to specify its values are not to be changed.
+Once the final variable is assigned, it can never be changed.
+Once the method is declared final, you cannot override it.
+Once a class is final, you cannot extend it.
+
+What is final, finally and finalize?
+Final is used to apply restrictions on class, method and variable.
+Finally is used to place important code, it will be executed whether exception is handled or not.
+Finalize is used to perform clean up processing just before object is garbage collected.
+
+What is a constructor ?
+To initialize Object.
+
+What is "this" keyword in java ?
+Is a reference variable that refers to the current object.
+
+What is "super" keyword in java?
+A reference variable which is used to refer immediate parent class object.
+
+What is JVM stand for ?
+Java Virtual Machine
+
+What version of java are you using?
+1.8.0_77
+
+What is JAR stand for ?
+Java Archive
+
+What is compile time and run time?
+Compile time (method overloading) - the time period in which you are compiling the code.
+Run time (method overriding) - the time period in which you run the piece of software.
+
+What is heap?
+It's a specialized tree-based data structure that satisfies the heap property:
+if P is a parent node of C, then the key (the value) of node P is greater than the key of node C.
+
+How java manage it's memory?
+It manages its memory via garbage collection in which when the heap becomes full, the garbage is collected.
+During the garbage collection objects that are no longer used are cleared, thus making space for new objects.
+
+What is the difference between String, StringBuffer and StringBuilder?
+String is immutable meaning that once an object is created, it can't be changed.
+StringBuffer is mutable meaning that one can change the value of the object.
+StringBuilder is the same as StringBuffer but it is not thread safe, thus making StringBuilder faster.
+
+What is Singleton class?
+It's used to control object creation, limiting the number of objects to only one.
+
+What is Serialization and Deserialization?
+Serialization - a mechanism of converting the state of an object into a byte stream.
+Deserialization - the reverse process where the byte stream is used to recreate the actual Java object in memory.
+
+Which one will take more memory, an int or Integer?
+They'll both take the same amount of memory.
+
+Why is String Immutable in Java?
+Because of the following:
+Security: Parameters are typically represented as String in network connections, database connection urls, usernames/passwords etc.
+If it were mutable, these parameters could be easily changed.
+Synchronization and concurrency: Making String immutable automatically makes them thread safe thereby solving the synchronization issues.
+Caching: When compiler optimizes your String objects, it sees that if two objects have same value (a="test", and b="test").
+Thus, you need only one string object (for both a and b, these two will point to the same object).
+Class loading: String is used as arguments for class loading.
+If mutable, it could result in wrong class being loaded (because mutable objects change their state).
+
+What is constructor chaining in Java?
+The process of calling one constructor from another constructor with respect to current object.
+
+The difference between Serial and Parallel Garbage Collector?
+Serial - mainly designed for single-threaded environments (e.g. 32 bit or Windows) and for small heaps.
+Parallel Garbage Collector - it uses multiple threads to scan through and compact the heap.
+
+What is JIT stands for?
+Just in time
+
+Explain Java Heap space and Garbage collection?
+Java Heap Space - Java applications are only allowed to use a limited amount of memory. This limit is specified during application startup.
+Garbage Collection - process of reclaiming the runtime unused memory automatically. In other words, it is a way to destroy the unused objects.
+
+Can you guarantee the garbage collection process?
+No
+
+What is the difference between stack and heap in Java?
+Stack memory is used to store local variables and function call while heap memory is used to store objects in Java.
